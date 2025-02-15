@@ -236,7 +236,6 @@ def dqn_run(env, state_dim):
     agent = DQNSoftTarget(state_dim, action_dim)
 
     episode_n = 300
-
     total_rewards = []
 
     for episode in range(episode_n):
